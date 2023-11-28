@@ -24,7 +24,7 @@ btn.addEventListener("click", () => {
     let result = parseInt(count2 - count)
 
 
-    alert("Qovislar farqi ",result)
+    alert(`${result},  Qovislar farqi ` )
 
     document.getElementById("ochiq").innerText = count2
     document.getElementById("yopiq").innerText = count
